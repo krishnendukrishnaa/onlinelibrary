@@ -1,0 +1,110 @@
+#tag
+{
+    color: white;
+    margin-top: 10px;
+}
+.put
+{
+    width: 600px;
+    height: 45px;
+    border-radius: 25px;
+    border-width: thin;
+    border-color: rgb(121, 121, 112);
+    
+}
+
+.width
+{
+    width: 400px;
+    height: 35px;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+#all
+{
+    color: rgb(240, 10, 10);
+    font-weight: bold;
+}
+
+.table
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.printt
+{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+#space
+{
+    text-decoration: none;
+    color: brown;
+}
+
+.dropdown-menu
+{
+    display: none;
+}
+
+.nav-item-dropdown:hover .dropdown-menu
+{
+    display: block;
+    color: white;
+}
+
+
+.textt
+{
+    width: 300px;
+}
+
+
+#black
+{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.span
+{
+    width: 300px;
+}
+
+
+#butt
+{
+    width: 200px;
+}
+.solid
+{
+    width: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
