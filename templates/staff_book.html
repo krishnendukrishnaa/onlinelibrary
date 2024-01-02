@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Books </title>
+    <link rel="stylesheet" href="../static/CSS/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'index'%}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'staff_book_pg'%}">View Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'view_profile_staff'%}">View Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'staff_issued_bk' %}">Issued Book</a>
+              </li>
+              
+              
+            
+          </div>
+        </div>
+      </nav>
+
+      
+    <div style="background-image: url(../static/images/Untitled.jpg); background-repeat: no-repeat;background-size: cover; min-height: 900px;">
+
+
+      <img src="../static/images/aearet.jpg" style="height: 500px; width: 84.3pc;">
+      <h1 style="position: absolute; top: 220px; left: 350px; color: white; font-size: 60px; font-weight: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Welcome To The Library </h1>
+       
+      
+
+      
+
+        <div class="container" >
+          
+          <div style="position: absolute;left: 50px;  margin-top: 350px; ">
+          <a class="card2" style="background-image: url(../static/images/sunset-profile-background.jpg);">
+            <h5 style="color: white;">Bad libraries build collections, good libraries build services, great libraries build communities.</h5>
+            <p class="small" style="color: rgb(146, 138, 138); margin-left: 150px;">-R. David Lankes</p>
+            
+            <div class="go-corner" href="#">
+              <div class="go-arrow">
+                →
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div style="position: absolute; left: 500PX; margin-top: 350px;">
+          <a class="card2" style="background-image: url(../static/images/sunset-profile-background.jpg);">
+            <h5 style="color: white;">Everything you need for better future and success has already been written. And guess what? All you have to do is go to the library</h5>
+            <p class="small" style="color: rgb(146, 138, 138);margin-left: 150px;">-Henri Frederic Amiel </p>
+            
+            <div class="go-corner" href="#">
+              <div class="go-arrow">
+                →
+              </div>
+            </div>
+          </a>
+        </div> 
+        
+        <div style="position: absolute; left: 930PX; margin-top: 350px;">
+          <a class="card2" style="background-image: url(../static/images/sunset-profile-background.jpg);" >
+            <h5 style="color: white;">To ask why we need libraries at all, when there is so much information available elsewhere, is about as sensible as asking if roadmaps are necessary now that there are so very many roads.</h5>
+            <p class="small" style="color: rgb(146, 138, 138); margin-left: 200px;">-Jon Bing</p>
+            
+            <div class="go-corner" href="#">
+              <div class="go-arrow">
+                →
+              </div>
+            </div>
+          </a>
+        </div>  
+          
+      </div>
+
+
+
+
+
+
+     
+      
+    </div>
+
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

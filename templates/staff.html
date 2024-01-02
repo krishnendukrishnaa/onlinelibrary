@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration for staff</title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+    <div style="background-image: url(../static/images/lib.jpeg); min-height: 725px; background-repeat: no-repeat; background-size: cover;">
+        <form action="{% url 'addstaff' %}" method="post" style="position: absolute; left: 400px;">
+            
+            {% csrf_token %}
+
+            <br><br>
+            <h1 style="font-size: 70px; color: white; position: absolute; left: 60px;">Register Here</h1><br><br><br><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Name" id="name" class="put" name="stname" style="text-align: center;">
+                        <span id="sname" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+                
+
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="User Name" id="uname" class="put" name="stuname" style="text-align: center;">
+                        <span id="suname" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col">
+                        <input type="password" placeholder="Password" id="pass" class="put" name="stpass" style="text-align: center;">
+                        <span id="word" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+
+                <div class="row">
+                    <div class="col">
+                        <input type="password" placeholder="Confirm Password" id="cpass" class="put" name="conpass" style="text-align: center;">
+                        <span id="conword" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Email" id="email" class="put" name="stemail" style="text-align: center;">
+                        <span id="mail" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Phone" id="phone" class="put" name="stphone" style="text-align: center;">
+                        <span id="mobile" style="color: red;"></span>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col">
+                        <input type="submit" onclick="teacher()" id="teach" value="Create Account" style="height: 40px; width: 300px; position: absolute; left: 150px; border-style: solid; border-width: thin;  border-color: azure;  background-color: brown;  color: white; font-weight: bold; font-family: cursive; font-size: 20px;">
+                        
+                    </div>
+                </div><br>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="../static/JS/lib.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
